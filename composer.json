@@ -1,0 +1,19 @@
+{
+  "name": "riverline/openweathermap-bundle",
+  "description": "Riverline OpenWeatherMap Bundle for Symfony",
+  "keywords": ["riverline", "openweathermap", "open", "weather", "map", "symfony", "bundle"],
+  "type": "library",
+  "require": {
+    "php": ">=5.3.0",
+    "cmfcmf/openweathermap-php-api": "~2.0"
+  },
+  "require": {
+
+  },
+  "autoload": {
+    "psr-0": {
+      "Riverline\\OpenWeatherMapBundle": "src/"
+    }
+  },
+  "target-dir": "Riverline/OpenWeatherMapBundle"
+}
